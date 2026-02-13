@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/kirin",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "kirin",
+    "name": "Kirin - The Sacred Beast of East Asia",
+    "aliases": [],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "creature with single horn and special ability:",
+    "tags": [
+      "and-art-motifs\"-(1976)"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "The Kirin (Japanese: 麒麟, also Qilin in Chinese, Gilen in Korean) is one of East Asia's most revered mythological creatures - a chimeric beast that combines features of dragons, deer, oxen, and other animals to create a benevolent divine being symbolizing prosperity, serenity, and the arrival of wise rulers.",
+      "full": "The Kirin (Japanese: 麒麟, also Qilin in Chinese, Gilen in Korean) is one of East Asia's most revered mythological creatures - a chimeric beast that combines features of dragons, deer, oxen, and other animals to create a benevolent divine being symbolizing prosperity, serenity, and the arrival of wise rulers. Unlike Western unicorns, the kirin is not a simple horned horse but a complex composite creature whose very appearance signals heaven's approval. Appearing only during times of peace or at the birth/death of great sages, the kirin represents the pinnacle of virtue in the animal kingdom - a creature so gentle it will not harm even grass beneath its hooves, yet so powerful it can ward off evil and validate divine authority."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "creature with single horn and special ability:",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
