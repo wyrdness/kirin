@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/kirin",
     "maintainers": [
       {
@@ -16,110 +16,262 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "kirin",
-    "name": "Kirin - The Sacred Beast of East Asia",
-    "aliases": [],
+    "name": "Kirin (Qilin)",
+    "aliases": [
+      { "name": "Qilin", "language": "Mandarin Chinese", "region": "China", "meaning": "麒麟; the original Chinese name" },
+      { "name": "Kirin", "language": "Japanese", "region": "Japan", "meaning": "麒麟" },
+      { "name": "Girin / Kirin", "language": "Korean", "region": "Korea", "meaning": "기린" },
+      { "name": "Kỳ lân", "language": "Vietnamese", "region": "Vietnam" },
+      { "name": "Gilen", "language": "Thai", "region": "Thailand" },
+      { "name": "Chinese unicorn", "region": "Western popular usage", "meaning": "common but misleading translation" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "creature with single horn and special ability:",
+    "subcategory": "Auspicious chimerical beast",
     "tags": [
-      "and-art-motifs\"-(1976)"
+      "east-asia",
+      "china",
+      "japan",
+      "korea",
+      "auspicious-omen",
+      "chimera",
+      "horned",
+      "confucianism",
+      "buddhism"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Kirin (Japanese: 麒麟, also Qilin in Chinese, Gilen in Korean) is one of East Asia's most revered mythological creatures - a chimeric beast that combines features of dragons, deer, oxen, and other animals to create a benevolent divine being symbolizing prosperity, serenity, and the arrival of wise rulers.",
-      "full": "The Kirin (Japanese: 麒麟, also Qilin in Chinese, Gilen in Korean) is one of East Asia's most revered mythological creatures - a chimeric beast that combines features of dragons, deer, oxen, and other animals to create a benevolent divine being symbolizing prosperity, serenity, and the arrival of wise rulers. Unlike Western unicorns, the kirin is not a simple horned horse but a complex composite creature whose very appearance signals heaven's approval. Appearing only during times of peace or at the birth/death of great sages, the kirin represents the pinnacle of virtue in the animal kingdom - a creature so gentle it will not harm even grass beneath its hooves, yet so powerful it can ward off evil and validate divine authority."
+      "summary": "An auspicious chimerical creature of East Asian mythology — qilin in Chinese, kirin in Japanese, girin in Korean, kỳ lân in Vietnamese — said to appear at the birth or death of a sage or just ruler, and so gentle that it will not tread on living grass or eat living things.",
+      "full": "The kirin (Japanese 麒麟; Chinese qilin; Korean girin; Vietnamese kỳ lân) is one of the most revered creatures of East Asian mythology and one of the Four Auspicious Beasts (四靈, sì líng) alongside the dragon, phoenix, and tortoise. The original Chinese qilin is a chimera — sources variously give it the body of a deer or ox, the tail of an ox, the hooves of a horse or cleft cloven hooves, scales of a fish or dragon, a dragon-like head, and one or two horns. Although Western translation often calls it the 'Chinese unicorn', the qilin is rarely depicted with a single horn; the name itself is a compound of 麒 (qí, the male) and 麟 (lín, the female). The earliest mention of the lin appears in the Classic of Poetry (Shijing, 11th–7th c. BCE), and the Spring and Autumn Annals records that Confucius identified a captured lin in 481 BCE shortly before his death — a passage central to later Confucian commentary. The kirin is gentle, will not walk on growing grass, will not eat living vegetation, and serves as an omen of the imminent birth or death of a great sage or ruler. In Japanese culture the kirin retains all this lore but is also the modern Japanese word for the giraffe — a usage that dates to the Ming dynasty, when the giraffes brought back from Africa by the eunuch admiral Zheng He's voyages (early 15th century) were celebrated at the Chinese court as living qilin. The figure is heavily represented in East Asian visual culture (komainu-style stone guardians, palace iconography, and the heraldry of Buddhist temples) and remains a major motif in modern manga, anime, and video games."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Chinese 麒麟 (qílín), in which 麒 (qí) names the male and 麟 (lín) the female. Borrowed into Japanese as 'kirin', Korean as 'girin/kirin', and Vietnamese as 'kỳ lân'.",
+      "meaning": "An auspicious chimerical beast; literally a male/female pair-word, treated as a single species name.",
+      "first_use": "Earliest known reference is in the poem 'Lin zhi zhi' (麟之趾, 'Feet of the Lin') in the Classic of Poetry (Shijing), 11th–7th century BCE."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "creature with single horn and special ability:",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Auspicious chimerical beast",
+      "subtype": "One of the Four Auspicious Beasts",
+      "variant": "Chinese qilin / Japanese kirin / Korean girin / Vietnamese kỳ lân"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "chinese-dragon", "name": "Chinese dragon", "relationship": "related", "description": "Companion among the Four Auspicious Beasts" },
+      { "id": "fenghuang", "name": "Fenghuang (Chinese phoenix)", "relationship": "related", "description": "Another of the Four Auspicious Beasts" },
+      { "id": "tortoise-of-the-north", "name": "Black Tortoise (Xuanwu)", "relationship": "related", "description": "Fourth of the auspicious quartet" },
+      { "id": "unicorn", "name": "Western unicorn", "relationship": "similar", "description": "Often-compared single-horned auspicious beast of European tradition" },
+      { "id": "haetae", "name": "Haetae (haechi)", "relationship": "similar", "description": "Korean lion-like auspicious beast sometimes confused with the girin" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["multicoloured (five colours associated with the cardinal directions)", "gold", "green", "red", "white"],
+      "features": [
+        { "feature": "Chimerical body", "description": "A composite of deer or ox body, ox tail, dragon head, scales, and cloven or horse-like hooves", "frequency": "always" },
+        { "feature": "One or two horns", "description": "Typically depicted with two horns or antlers in Chinese tradition; depictions vary across cultures and eras", "frequency": "common" },
+        { "feature": "Scales", "description": "Dragon-like scales over the body in many depictions", "frequency": "common" },
+        { "feature": "Flames or aura", "description": "Often shown with flame-like adornments along the back or surrounding the body", "frequency": "common" },
+        { "feature": "Beard", "description": "Some Chinese and Japanese depictions add a dragon-like beard", "frequency": "occasional" }
+      ],
+      "morphology": "A chimera — never a simple unicorn-like horse — combining attributes of dragon, deer, ox, and fish across regional variants."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Auspicious omen", "description": "Appears at the birth or death of a sage, just ruler, or moment of great virtue", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Treads gently / harms nothing", "description": "So gentle it does not tread on living grass or eat living plants; will not harm any being", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Punishes the wicked", "description": "In some traditions can recognize and punish the unrighteous, particularly corrupt judges (a role echoed in the related haetae)", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Carries virtuous souls", "description": "Buddhist and folk-Daoist motifs depict the kirin carrying sages or holy texts", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["palace grounds", "sacred groves", "the courts of just rulers", "celestial realms"],
+      "diet": "Vegetarian; will not eat living plants",
+      "patterns": [
+        "Manifests rarely, only in periods of great virtue or great change",
+        "Strongly associated with imperial legitimacy and the rule of the Way (dao)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Throughout the East Asian cultural sphere — China, Japan, Korea, Vietnam — and in adjacent traditions of Mongolia, Tibet, and Thailand.",
+      "continents": ["Asia"],
+      "countries": ["China", "Japan", "Korea (North and South)", "Vietnam", "Thailand"],
+      "regions": ["East Asia", "Sinosphere"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1000 BCE",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Classic of Poetry (Shijing), poem 'Lin zhi zhi'"
+      },
+      "peak_activity_periods": [
+        { "period": "Han to Tang dynasties (3rd c. BCE – 10th c. CE)", "description": "Establishment of the qilin within Confucian and Daoist ritual culture" },
+        { "period": "Ming dynasty (14th–17th c.)", "description": "Identification of the giraffe as a living qilin during Zheng He's voyages, fixing the giraffe-kirin double meaning that persists in Japanese and Korean today" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Ancient Chinese cosmological thought; the qilin emerges as a member of the Four Auspicious Beasts in early Confucian and Han-dynasty cosmography. Identified with the eastern direction in Han five-element schemata in some texts.",
+      "earliest_accounts": "Earliest written reference in the Classic of Poetry (11th–7th c. BCE); celebrated story of Confucius and the captured lin in the Spring and Autumn Annals (481 BCE).",
+      "folklore_connections": "Travels with Buddhism and Confucianism into Korea and Japan in the early medieval period; in Japan kirin become guardian figures and the modern word for giraffe."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1000-01-01", "event": "Earliest reference to the lin in the poem 'Lin zhi zhi' in the Classic of Poetry", "significance": "Foundational textual attestation", "source": "Shijing, Mao no. 11" },
+      { "date": "0481-01-01", "event": "According to the Spring and Autumn Annals, a unicorn-like beast (lin) is captured during a hunt; Confucius identifies it as a lin and weeps, taking it as an omen of the Zhou dynasty's decline", "significance": "Anchors the qilin in classical Confucian narrative", "source": "Spring and Autumn Annals (Chunqiu)" },
+      { "date": "1414-09-20", "event": "A giraffe brought from East Africa by the eunuch admiral Zheng He's fleet is presented to the Yongle Emperor at the Ming court and celebrated as a living qilin", "significance": "Fixes the giraffe-as-kirin double meaning in East Asian languages", "source": "Ming Shilu and Ming-court paintings (e.g., Shen Du's 1414 'Tribute Giraffe')" },
+      { "date": "1776-01-01", "event": "Toriyama Sekien depicts the kirin in his Japanese yōkai-adjacent compendium imagery, contributing to the modern Japanese visual canon", "significance": "Edo-period Japanese visual reception", "source": "Toriyama Sekien" }
+    ],
+    "modern_era": "The kirin remains ubiquitous in East Asian heraldry, calligraphy, and design (e.g., the Kirin Brewery logo, Japan, 1888), and is a recurring stock figure in manga, anime, JRPGs, and martial-arts cinema. In modern Japanese and Korean it is also the everyday word for the giraffe."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "n/a", "latest": "n/a" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "kirin-evidence-shijing",
+        "type": "classical text",
+        "name": "Classic of Poetry — 'Lin zhi zhi'",
+        "date": "c. 1000 BCE",
+        "description": "Earliest known mention of the lin (the qilin's female form), used as an emblem of the virtuous nobility.",
+        "status": "verified",
+        "source": "Shijing (Classic of Poetry)"
+      },
+      {
+        "id": "kirin-evidence-chunqiu",
+        "type": "classical text",
+        "name": "Spring and Autumn Annals — capture of the lin",
+        "date": "c. 481 BCE",
+        "description": "Confucius identifies a captured beast as a lin and reads it as an omen.",
+        "status": "verified",
+        "source": "Chunqiu (Spring and Autumn Annals)"
+      },
+      {
+        "id": "kirin-evidence-shen-du",
+        "type": "court painting",
+        "name": "Shen Du — 'Tribute Giraffe with Attendant'",
+        "date": "1414",
+        "description": "Ming court painting depicting the East African giraffe brought back by Zheng He's fleet, celebrated as a qilin.",
+        "status": "verified",
+        "source": "Philadelphia Museum of Art (extant copies); discussed by Sally K. Church and others"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Genuine auspicious manifestation",
+        "description": "In classical Confucian, Daoist, and East Asian Buddhist thought, the kirin is a genuine spiritual being whose appearance is an objective sign from heaven.",
+        "proponents": ["Han-dynasty Confucian commentators", "Imperial-era ritual specialists"],
+        "evidence_cited": ["Shijing", "Chunqiu", "Han-dynasty omen literature"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Giraffe identification (Ming dynasty and after)",
+        "description": "The Ming court's celebration of giraffes as living qilin reflects a real-world identification driven by the giraffe's exotic morphology — long neck, mottled coat, gentle disposition — and is the origin of the modern Japanese / Korean usage of kirin / girin for the giraffe.",
+        "proponents": ["Sally K. Church", "Modern East Asian historians"],
+        "evidence_cited": ["Ming Shilu records", "Shen Du's 1414 painting", "Continued use of 麒麟 / 기린 / kỳ lân for 'giraffe' in modern East Asian languages"]
+      },
+      {
+        "name": "Sivatherium / extinct giraffid hypothesis",
+        "description": "A minority popular hypothesis suggests that the qilin's chimerical features may preserve cultural memory of extinct giraffids such as Sivatherium; this is speculative and not mainstream paleontological consensus.",
+        "proponents": ["Various cryptozoological commentators"],
+        "evidence_cited": ["Morphological features (cleft hooves, ox-like body, ossicone-like horns) shared with extinct giraffids"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Mythical composite, not a real species",
+        "description": "Mainstream scholarship treats the qilin/kirin as a culturally constructed chimera assembled from familiar animal parts to symbolize virtue, harmony, and imperial legitimacy.",
+        "proponents": ["Standard East Asian mythography"],
+        "evidence_cited": ["Stable composite iconography from the Han dynasty onward", "Use in imperial heraldry and ritual rather than zoological catalogues"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Confucian narrative tradition surrounding Confucius and the captured lin",
+        "Buddhist and Daoist auspicious-creature traditions",
+        "Imperial Chinese, Korean, Japanese, and Vietnamese court iconography"
+      ],
+      "stories": [
+        "Confucius's reaction to the captured lin (481 BCE)",
+        "The Ming court's reception of Zheng He's giraffe as a qilin (1414)",
+        "Folktales of kirin appearing at the births of Confucius and other sages"
+      ],
+      "beliefs": "Sign of heaven's approval; embodiment of virtue, gentleness, and just rulership."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Hayashi Razan and other Edo-period scholars on the kirin",
+        "Modern Japanese fantasy literature (e.g., the Twelve Kingdoms by Fuyumi Ono)"
+      ],
+      "film_tv": [
+        "Crouching Tiger, Hidden Dragon (2000) — qilin imagery",
+        "Various Japanese anime and Korean historical dramas"
+      ],
+      "games": [
+        "Final Fantasy series (Kirin summon)",
+        "Monster Hunter series (Kirin elder dragon)",
+        "Pokémon (Girafarig and others gesture to kirin lore)"
+      ],
+      "music": [],
+      "other": [
+        "Kirin Brewery (Kirin Holdings) corporate logo, Japan, 1888",
+        "Stone qilin guardian statues at imperial tombs and temples"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Sally K. Church", "affiliation": "University of Cambridge", "contribution": "Historical research on Zheng He's voyages and the giraffe-as-qilin episode", "period": "2000s–present" },
+      { "name": "Edward H. Schafer", "affiliation": "University of California, Berkeley", "contribution": "Foundational scholarship on Tang-dynasty exotica including auspicious creatures", "period": "1950s–1980s" },
+      { "name": "Hayao Kawai", "affiliation": "Kyoto University / International Research Center for Japanese Studies", "contribution": "Cross-cultural psychological readings of Japanese mythological creatures including the kirin", "period": "1970s–2000s" }
+    ],
+    "organizations": [
+      { "name": "International Research Center for Japanese Studies (Nichibunken)", "url": "https://www.nichibun.ac.jp/en/", "focus": "Japanese folklore and mythology research" },
+      { "name": "Palace Museum (Beijing)", "url": "https://en.dpm.org.cn", "focus": "Imperial Chinese qilin iconography in art and architecture" }
+    ],
+    "ongoing_studies": "Active scholarship in East Asian art history and cultural history continues to investigate the qilin's iconography and its travel across the Sinosphere."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-qilin", "type": "website", "title": "Qilin", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Qilin", "accessed": "2026-05-07" },
+    { "id": "britannica-qilin", "type": "website", "title": "Qilin", "publication": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/qilin", "accessed": "2026-05-07" },
+    { "id": "yokai-com-kirin", "type": "website", "title": "Kirin", "authors": ["Matthew Meyer"], "publication": "yokai.com", "url": "https://yokai.com/kirin/", "accessed": "2026-05-07" },
+    { "id": "church-2004", "type": "paper", "title": "Zheng He: An Investigation into the Plausibility of 450-ft Treasure Ships", "authors": ["Sally K. Church"], "publication": "Monumenta Serica", "date": "2005" },
+    { "id": "schafer-1963", "type": "book", "title": "The Golden Peaches of Samarkand: A Study of T'ang Exotics", "authors": ["Edward H. Schafer"], "publication": "University of California Press", "date": "1963", "isbn": "978-0520054622" }
+  ]
 }
